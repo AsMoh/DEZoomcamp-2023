@@ -8,7 +8,7 @@ version: df161452cbd4a524f0431857f237d212
 work_queue_name: default
 work_pool_name: null
 tags: []
-parameters: {}
+parameters: { color: "yellow" ,     year: 2020 ,     month: 1}
 schedule:
   cron: 0 5 1 * *
   timezone: null
