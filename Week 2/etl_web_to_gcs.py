@@ -4,7 +4,6 @@ from prefect import flow, task
 from prefect_gcp.cloud_storage import GcsBucket
 from random import randint
 
-
 @task(retries=3)
 def fetch(dataset_url: str) -> pd.DataFrame:
     """Read taxi data from web into pandas DataFrame"""
